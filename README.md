@@ -5,17 +5,17 @@
 
 //opts["preserveDrawingBuffer"] = true;
 
-## Sprite的filled模式出问题了？
+## Q: Sprite的filled模式出问题了？
 在图集中禁用旋转
 
 http://forum.cocos.com/t/sprite-filled/43661
 
 补充：物理引擎生成多边形刚体时，也要禁止旋转
 
-## 微信小游戏中超越好友出现不显示的问题？
+## Q: 微信小游戏中超越好友出现不显示的问题？
 wx.getFriendCloudStorage不能频繁调用，可以在游戏一开始调用一次，然后在游戏中直接用就可以了
 
-## 图片加载
+## Q: 图片加载
 
             this.node.getComponent(cc.Sprite).spriteFrame = new cc.SpriteFrame(cc.url.raw('resources/texture/icon-libao.png'));
 
@@ -31,7 +31,7 @@ wx.getFriendCloudStorage不能频繁调用，可以在游戏一开始调用一�
                 self.moreGame.spriteFrame = new cc.SpriteFrame(texture);
             });
 
-## ip定位
+## Q: ip定位
     // 判断分享模式
     getLocation: function () {
         let self = this;
@@ -45,7 +45,7 @@ wx.getFriendCloudStorage不能频繁调用，可以在游戏一开始调用一�
         })
     },
 
-## 定制js引擎gulp build失败
+## Q: 定制js引擎gulp build失败
 CLI version 3.9.1
 Local version 3.9.1
 这两个版本一定要一致
