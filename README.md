@@ -51,3 +51,7 @@ Local version 3.9.1</br>
 首先选择JS版本的实现，也可以自己写，但是效率不一定高。</br>
 我找的JS版本的A星算法参考：https://github.com/bgrins/javascript-astar </br>
 在creator里选择作为插件导入js文件，即可使用。
+
+## Q: 2.0.9版本构建ios项目成功后，编译失败?
+错误提示：tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance </br>
+解决办法：[因为mac中多个xcode存在，被重命名了](https://blog.csdn.net/jymn_chen/article/details/21613745)
